@@ -25,8 +25,7 @@ A API fornece endpoints RESTful para consulta das economias e implementa **pagin
 ### **📌 Frontend**  
 - **React.js** – Biblioteca JavaScript para construção da interface interativa.  
 - **Vite.js** – Ferramenta de build otimizada para React.  
-- **Axios** – Cliente HTTP para comunicação com a API.  
-- **React Query** – Gerenciamento de estado e cache das requisições.  
+- **Axios** – Cliente HTTP para comunicação com a API.    
 - **CSS Customizado** – Estilização flexível e adaptável à interface.  
 
 ---
