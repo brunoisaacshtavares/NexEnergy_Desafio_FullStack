@@ -55,13 +55,7 @@ DB_DIALECT=mysql //Banco de dados utilizado no projeto
 DB_PORT=3306 // Porta respectiva ao Banco de Dados
 PORT=3000 // Porta que vai ser aberta no servidor para o seu Back end
 ```
-## **📌 Instalação das Dependências**  
 
-### **📌 Backend**  
-```bash
-cd backend
-npm install express sequelize mysql2 csv-parser dotenv cors
-```
 Inicie o servidor:  
 ```bash
 node server.js
@@ -72,21 +66,18 @@ node server.js
 cd ../frontend
 npm install
 ```
-## **📌 Instalação das Dependências**
-```bash
-cd frontend
-npm install react vite axios 
-```
+
 ### **📌 Frontend**
 
-Acesse a aplicação em:  
-👉 [http://localhost:5173](http://localhost:5173)
-
----
 Inicie o servidor:  
 ```bash
 npm run dev
 ```
+Acesse a aplicação em:  
+👉 [http://localhost:5173](http://localhost:5173)
+
+---
+
 
 ## **🛢️ Estrutura do Banco de Dados**  
 
@@ -96,12 +87,12 @@ npm run dev
 | **Campo**                                | **Tipo de Dado** | **Descrição**                                    |
 |------------------------------------------|------------------|------------------------------------------------|
 | `id`                                     | BIGINT           | Identificador único da unidade consumidora.     |
-| `consumer_unit`                          | BIGINT           | Número da unidade consumidora.                 |
+| `unidade_consumidora`                    | BIGINT           | Número da unidade consumidora.                 |
 | `status`                                 | TEXT             | Status da unidade.                             |
-| `month_ref`                              | DATE             | Mês de referência do consumo.                  |
-| `value`                                  | REAL             | Valor total cobrado.                           |
-| `economy_value`                          | REAL             | Valor economizado.                             |
-| `power_distribution_unit_bill_value`     | REAL             | Valor da conta da distribuidora.               |
+| `mes`                                    | DATE             | Mês de referência do consumo.                  |
+| `valor_cobrado`                          | REAL             | Valor total cobrado.                           |
+| `valor_economia`                         | REAL             | Valor economizado.                             |
+| `valor_fatura_concessionaria`            | REAL             | Valor da conta da distribuidora.               |
 
 ---
 
