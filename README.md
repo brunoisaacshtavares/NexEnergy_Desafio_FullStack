@@ -75,7 +75,7 @@ npm install
 ## **📌 Instalação das Dependências**
 ```bash
 cd frontend
-npm install react vite axios @tanstack/react-query
+npm install react vite axios 
 ```
 ### **📌 Frontend**
 
