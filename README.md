@@ -83,6 +83,10 @@ Acesse a aplicação em:
 👉 [http://localhost:5173](http://localhost:5173)
 
 ---
+Inicie o servidor:  
+```bash
+npm run dev
+```
 
 ## **🛢️ Estrutura do Banco de Dados**  
 
