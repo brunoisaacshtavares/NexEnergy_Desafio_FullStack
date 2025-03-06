@@ -1,4 +1,10 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
+  "scripts": {
+    "migrate": "npx sequelize-cli db:migrate",
+    "start": "npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all && node index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "csv-parser": "^3.2.0",
