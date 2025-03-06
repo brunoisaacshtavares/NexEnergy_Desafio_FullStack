@@ -38,10 +38,15 @@ git clone <URL_DO_REPOSITORIO>
 cd NEXENERGY_DESAFIO_FULLSTACK
 ```
 
+### **📌 Faça o download do banco de dados do mysql**
+```
+[MY SQL](https://www.mysql.com/)
+```
 ### **📌 Configuração do Backend**  
 ```bash
 cd backend
 npm install
+npx sequelize-cli db:create
 ```
 
 Crie um arquivo `.env` na raiz do backend e adicione os dados do banco de dados:  
@@ -57,7 +62,7 @@ PORT=3000 // Porta que vai ser aberta no servidor para o seu Back end
 
 Inicie o servidor:  
 ```bash
-node server.js
+npm start
 ```
 
 ### **📌 Configuração do Frontend**  
@@ -70,7 +75,7 @@ npm install
 
 Inicie o servidor:  
 ```bash
-npm run dev
+npm run start
 ```
 Acesse a aplicação em:  
 👉 [http://localhost:5173](http://localhost:5173)
